@@ -13,7 +13,7 @@ body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
 
-  font-family: roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
 }
@@ -74,6 +74,9 @@ body {
 /* hero */
 .hero {
   background-color: var(--hero-backgroud-color);
+}
+
+.hero-title {
   color: var(--address-color);
 
   font-weight: 900;
@@ -111,7 +114,9 @@ body {
   color: var(--secondary-text-color);
 
   font-weight: bold;
+  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -158,6 +163,7 @@ body {
   color: var(--address-color);
 
   line-height: 1.7;
+  font-style: normal;
 }
 
 .contact-footer {
@@ -176,6 +182,14 @@ body {
   background-color: var(--secondary-background-color);
   color: var(--secondary-text-color);
   cursor: pointer;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .button-secondary:hover,
